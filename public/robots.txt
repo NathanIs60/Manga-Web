@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Prevent access to admin areas
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /settings/
+
+# Sitemaps
+Sitemap: https://mangaverse.com/sitemap.xml
